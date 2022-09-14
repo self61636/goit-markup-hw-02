@@ -1,0 +1,17 @@
+{
+    "name": "goit-markup-hw-01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prettier:write": "prettier --write .",
+        "prettier:check": "prettier --check ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "editorconfig": "^0.15.3",
+        "prettier": "2.7.1"
+    }
+}
