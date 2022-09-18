@@ -20,7 +20,7 @@ header {
 header a {
   text-decoration: none;
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.1;
   color: var(--dark-gray);
   font-weight: 500;
 }
@@ -31,12 +31,12 @@ header a:not(.logo):hover {
 
 nav,
 nav li,
-.address-top,
-.address-top li {
+.header-address,
+.header-address li {
   display: inline-block;
 }
 
-.address-top li a {
+.header-address li a {
   color: var(--gray-color);
 }
 
@@ -44,7 +44,7 @@ nav li,
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 119%;
+  line-height: 1.2;
   color: var(--black-color);
   text-decoration: none;
 }
@@ -60,7 +60,7 @@ nav li,
 .studio-title h1 {
   color: var(--white-color);
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   font-weight: 900;
 }
@@ -69,7 +69,7 @@ nav li,
   color: var(--white-color);
   background-color: var(--blue-color);
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.9;
   font-weight: 700;
   border: none;
   border-radius: 2px;
@@ -82,13 +82,13 @@ nav li,
 .studio-features h3 {
   color: var(--dark-gray);
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.2;
 }
 
 .studio-features p {
   color: var(--gray-color);
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.7;
 }
 
 .our-job li {
@@ -99,7 +99,7 @@ nav li,
 .our-command h2 {
   color: var(--dark-gray);
   font-size: 36px;
-  line-height: 116%;
+  line-height: 1.2;
 }
 
 .our-command li {
@@ -109,51 +109,51 @@ nav li,
 .our-command h3 {
   color: var(--dark-gray);
   font-size: 16px;
-  line-height: 119%;
+  line-height: 1.2;
 }
 
 .our-command p {
   color: var(--gray-color);
-  line-height: 119%;
+  line-height: 1.2;
 }
 
 footer {
   background-color: var(--dark-metal-color);
 }
 
-.address-bottom li {
+.footer-address li {
   list-style-type: none;
 }
 
-.address-bottom a {
+.footer-address a {
   text-decoration: none;
   color: var(--half-trans-white);
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.7;
   font-style: normal;
 }
 
-.address-bottom a.the-street {
+.footer-address a.the-street {
   text-decoration: none;
   color: var(--white-color);
 }
 
-.page-menu-buttons li {
+.filter-buttons li {
   display: inline-block;
 }
 
-.page-menu-buttons button {
+.filter-buttons button {
   color: var(--dark-gray);
   font-weight: 500;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.6;
   font-family: inherit;
   border: none;
   border-radius: 2px;
   cursor: pointer;
 }
 
-.page-menu-buttons button:hover {
+.filter-buttons button:hover {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
@@ -170,10 +170,10 @@ footer {
 .portfolio-content b {
   color: var(--dark-gray);
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
 }
 
 .portfolio-content p {
   color: var(--gray-color);
-  line-height: 188%;
+  line-height: 1.8;
 }
