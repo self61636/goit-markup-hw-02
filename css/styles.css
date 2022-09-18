@@ -11,6 +11,8 @@ body {
   --black-color: #000;
   --dark-metal-color: #2f303a;
   --half-trans-white: rgba(255, 255, 255, 0.6);
+  --button-color: #188ce8;
+  --our-command: #f5f4fa;
 }
 
 header {
@@ -25,7 +27,8 @@ header a {
   font-weight: 500;
 }
 
-header a:not(.logo):hover {
+header a:not(.logo):hover,
+header a:not(.logo):focus {
   color: var(--blue-color);
 }
 
@@ -49,6 +52,10 @@ nav li,
   text-decoration: none;
 }
 
+footer .logo {
+  color: var(--white-color);
+}
+
 .logo span {
   color: var(--blue-color);
 }
@@ -66,13 +73,16 @@ nav li,
 }
 
 .studio-title button {
-  color: var(--white-color);
-  background-color: var(--blue-color);
   font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
   border: none;
   border-radius: 2px;
+}
+.studio-title button:hover,
+.studio-title button:focus {
+  color: var(--white-color);
+  background-color: var(--button-color);
 }
 
 .studio-features li {
@@ -83,6 +93,7 @@ nav li,
   color: var(--dark-gray);
   font-size: 14px;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .studio-features p {
@@ -100,6 +111,10 @@ nav li,
   color: var(--dark-gray);
   font-size: 36px;
   line-height: 1.2;
+}
+
+.our-command {
+  background-color: var(--our-command);
 }
 
 .our-command li {
@@ -133,6 +148,13 @@ footer {
   font-style: normal;
 }
 
+.footer-address a:hover,
+.footer-address a:focus,
+.footer-address a.the-street:hover,
+.footer-address a.the-street:focus {
+  color: var(--blue-color);
+}
+
 .footer-address a.the-street {
   text-decoration: none;
   color: var(--white-color);
@@ -149,11 +171,12 @@ footer {
   line-height: 1.6;
   font-family: inherit;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.filter-buttons button:hover {
+.filter-buttons button:hover,
+.filter-buttons button:focus {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
